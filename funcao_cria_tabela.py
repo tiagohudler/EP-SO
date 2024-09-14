@@ -2,7 +2,7 @@ def criar_tabela():
 	tabela = []
 	prioridades = ler_prioridades("programas/prioridades.txt") #criou um array com as prioridades de cada processo
 
-	for pid in range(1, 10)
+	for pid in range(1, 10):
 		codigo = ler_processo(f"programas/processo0{pid}.txt")
 		prioridade = prioridades[pid-1] #como pid começa em 1 e o array em 0
 
