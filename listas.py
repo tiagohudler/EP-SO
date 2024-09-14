@@ -43,3 +43,8 @@ class ListaProntos:
 class ListaBloqueado:
     def __init__(self):
         self.processos = []
+
+    def addProc(self, pID, prioridade, credito):
+        proc = Proc(pID, prioridade, credito)
+        self.processos.append(proc)
+        self.processos = sorted(self.processos, key=lambda processos:processos.credito, reverse=False)

@@ -35,7 +35,7 @@ def execucao():
       pass
 
 prioridades = getPrioridade()
-print(prioridades)
+# print(prioridades)
 
 mem = []
 for i in range(1,10):
@@ -44,19 +44,50 @@ for i in range(1,10):
       mem.append(temp)
 temp = openArq("10")
 mem.append(temp)
-# print(mem)
+
 
 tabelaPCB = tabelaProcessos.TabelaProc()
 prontos = listas.ListaProntos()
 for i in range(len(mem)):
       tabelaPCB.addProc(i, mem[i][0])
+      mem[i] = mem[i][1:]
       prontos.addProc(i, prioridades[i], prioridades[i])
-
+for i in mem:
+    print(i)
 # tabelaPCB.printProc()
-# prontos.printProntos()
+prontos.printProntos()
 
-tempPronto = prontos.pop()
-tempPCB = tabelaPCB.findID(tempPronto.pID)
 
-running = Rodando(tempPronto.pID, tempPronto.prioridade, tempPronto.credito, tempPCB.pc, tempPCB.X, tempPCB.Y)
-running.printRodando()
+while prontos.processos[len(prontos.processos)-1] != 0:
+    tempPronto = prontos.pop()
+    tempPCB = tabelaPCB.findID(tempPronto.pID)
+
+    running = Rodando(tempPronto.pID, tempPronto.prioridade, tempPronto.credito, tempPCB.pc, tempPCB.X, tempPCB.Y)
+    running.printRodando()
+
+    running.credito -= 1
+    for i in range(quantum):
+        # print(mem[running.pID])
+        instrucao = mem[running.pID][running.pc]
+        if instrucao == "COM":
+            pass
+        elif instrucao == "E/S":
+            pass
+        elif instrucao == "SAIDA":
+            pass
+        elif instrucao[:2] == "X=":
+            running.X = int(instrucao[2:])
+        elif instrucao[:2] == "Y=":
+            running.Y = int(instrucao[2:])
+
+        running.pc += 1
+
+    running.printRodando()
+
+    prontos.addProc(running.pID, running.prioridade, running.credito)
+    tempPCB.pc = running.pc; tempPCB.X = running.X; tempPCB.Y = running.Y
+    tabelaPCB.atualizaProc(tempPCB)
+    
+    
+prontos.printProntos()    
+tabelaPCB.printProc()

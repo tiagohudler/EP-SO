@@ -19,6 +19,11 @@ class TabelaProc:
         pcb = PCB(pID, nome)
         self.listaPCB.append(pcb)
 
+    def atualizaProc(self, pcb):
+        for i in range(len(self.listaPCB)):
+            if self.listaPCB[i].pID == pcb.pID:
+                self.listaPCB[i] = pcb
+
     def findID(self, pID):
         for i in range(len(self.listaPCB)):
             if self.listaPCB[i].pID == pID:
