@@ -50,7 +50,7 @@ mem.append(temp)
 tabelaPCB = tabelaProcessos.TabelaProc()
 prontos = listas.ListaProntos()
 bloqueados = listas.ListaBloqueados()
-log = open("log.txt", "w")
+log = open("log.txt", "w", encoding="UTF-8")
 
 for i in range(len(mem)):
       tabelaPCB.addProc(i, mem[i][0])
@@ -108,8 +108,9 @@ while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait
 
         running.pc += 1
 
-    log.write(f"Interrompendo processo {tempPCB.nome} após {instructionCounter} instruções\n")
     if running.over == False:
+        log.write(f"Interrompendo processo {tempPCB.nome} após {instructionCounter} instruções\n")
+
         if  running.estado == "Pronto":   
             prontos.addProc(running.pID, running.prioridade, running.credito)
         if running.estado == "Bloqueado":

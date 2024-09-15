@@ -1,168 +1,158 @@
 Processo TESTE-7 executando
-Interrompendo processo TESTE-7 após 3 instruções
+Interrompendo processo TESTE-7 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-7 executando
-Interrompendo processo TESTE-7 após 1 instruções
+Interrompendo processo TESTE-7 apÃ³s 1 instruÃ§Ãµes
 Processo TESTE-4 executando
-Interrompendo processo TESTE-4 após 2 instruções
+Interrompendo processo TESTE-4 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-9 executando
-Interrompendo processo TESTE-9 após 3 instruções
+Interrompendo processo TESTE-9 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-7 executando
-Interrompendo processo TESTE-7 após 3 instruções
+Interrompendo processo TESTE-7 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-4 executando
-Interrompendo processo TESTE-4 após 2 instruções
+Interrompendo processo TESTE-4 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-7 executando
-Interrompendo processo TESTE-7 após 3 instruções
+Interrompendo processo TESTE-7 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-7 executando
-Interrompendo processo TESTE-7 após 3 instruções
+Interrompendo processo TESTE-7 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-4 executando
-Interrompendo processo TESTE-4 após 2 instruções
+Interrompendo processo TESTE-4 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-8 executando
-Interrompendo processo TESTE-8 após 3 instruções
+Interrompendo processo TESTE-8 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-7 executando
 -----------------------------------
 Processo TESTE-7 finalizado
 X = 12
 Y = 3
 -----------------------------------
-Interrompendo processo TESTE-7 após 1 instruções
 Processo TESTE-8 executando
-Interrompendo processo TESTE-8 após 3 instruções
+Interrompendo processo TESTE-8 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-4 executando
-Interrompendo processo TESTE-4 após 2 instruções
+Interrompendo processo TESTE-4 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-9 executando
-Interrompendo processo TESTE-9 após 3 instruções
+Interrompendo processo TESTE-9 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-9 executando
-Interrompendo processo TESTE-9 após 3 instruções
+Interrompendo processo TESTE-9 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-4 executando
-Interrompendo processo TESTE-4 após 3 instruções
+Interrompendo processo TESTE-4 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-8 executando
-Interrompendo processo TESTE-8 após 3 instruções
+Interrompendo processo TESTE-8 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-6 executando
-Interrompendo processo TESTE-6 após 3 instruções
+Interrompendo processo TESTE-6 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-4 executando
 -----------------------------------
 Processo TESTE-4 finalizado
 X = 91
 Y = 5
 -----------------------------------
-Interrompendo processo TESTE-4 após 1 instruções
 Processo TESTE-6 executando
-Interrompendo processo TESTE-6 após 1 instruções
+Interrompendo processo TESTE-6 apÃ³s 1 instruÃ§Ãµes
 Processo TESTE-8 executando
-Interrompendo processo TESTE-8 após 3 instruções
+Interrompendo processo TESTE-8 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-9 executando
-Interrompendo processo TESTE-9 após 3 instruções
+Interrompendo processo TESTE-9 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-6 executando
-Interrompendo processo TESTE-6 após 3 instruções
+Interrompendo processo TESTE-6 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-9 executando
-Interrompendo processo TESTE-9 após 2 instruções
+Interrompendo processo TESTE-9 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-8 executando
-Interrompendo processo TESTE-8 após 3 instruções
+Interrompendo processo TESTE-8 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-10 executando
-Interrompendo processo TESTE-10 após 3 instruções
+Interrompendo processo TESTE-10 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-5 executando
-Interrompendo processo TESTE-5 após 2 instruções
+Interrompendo processo TESTE-5 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-9 executando
 -----------------------------------
 Processo TESTE-9 finalizado
 X = 0
 Y = 0
 -----------------------------------
-Interrompendo processo TESTE-9 após 1 instruções
 Processo TESTE-10 executando
-Interrompendo processo TESTE-10 após 2 instruções
+Interrompendo processo TESTE-10 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-8 executando
-Interrompendo processo TESTE-8 após 3 instruções
+Interrompendo processo TESTE-8 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-5 executando
-Interrompendo processo TESTE-5 após 2 instruções
+Interrompendo processo TESTE-5 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-6 executando
-Interrompendo processo TESTE-6 após 3 instruções
+Interrompendo processo TESTE-6 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-2 executando
-Interrompendo processo TESTE-2 após 3 instruções
+Interrompendo processo TESTE-2 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-5 executando
-Interrompendo processo TESTE-5 após 2 instruções
+Interrompendo processo TESTE-5 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-2 executando
-Interrompendo processo TESTE-2 após 2 instruções
+Interrompendo processo TESTE-2 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-6 executando
-Interrompendo processo TESTE-6 após 1 instruções
+Interrompendo processo TESTE-6 apÃ³s 1 instruÃ§Ãµes
 Processo TESTE-10 executando
 -----------------------------------
 Processo TESTE-10 finalizado
 X = 0
 Y = 0
 -----------------------------------
-Interrompendo processo TESTE-10 após 1 instruções
 Processo TESTE-8 executando
 -----------------------------------
 Processo TESTE-8 finalizado
 X = 1
 Y = 3
 -----------------------------------
-Interrompendo processo TESTE-8 após 3 instruções
 Processo TESTE-3 executando
-Interrompendo processo TESTE-3 após 3 instruções
+Interrompendo processo TESTE-3 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-2 executando
-Interrompendo processo TESTE-2 após 3 instruções
+Interrompendo processo TESTE-2 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-6 executando
-Interrompendo processo TESTE-6 após 3 instruções
+Interrompendo processo TESTE-6 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-3 executando
-Interrompendo processo TESTE-3 após 3 instruções
+Interrompendo processo TESTE-3 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-5 executando
-Interrompendo processo TESTE-5 após 2 instruções
+Interrompendo processo TESTE-5 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-1 executando
-Interrompendo processo TESTE-1 após 3 instruções
+Interrompendo processo TESTE-1 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-1 executando
-Interrompendo processo TESTE-1 após 2 instruções
+Interrompendo processo TESTE-1 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-5 executando
-Interrompendo processo TESTE-5 após 2 instruções
+Interrompendo processo TESTE-5 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-6 executando
 -----------------------------------
 Processo TESTE-6 finalizado
 X = 8
 Y = 5
 -----------------------------------
-Interrompendo processo TESTE-6 após 1 instruções
 Processo TESTE-3 executando
-Interrompendo processo TESTE-3 após 3 instruções
+Interrompendo processo TESTE-3 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-1 executando
-Interrompendo processo TESTE-1 após 3 instruções
+Interrompendo processo TESTE-1 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-5 executando
 -----------------------------------
 Processo TESTE-5 finalizado
 X = 8
 Y = 5
 -----------------------------------
-Interrompendo processo TESTE-5 após 1 instruções
 Processo TESTE-1 executando
-Interrompendo processo TESTE-1 após 1 instruções
+Interrompendo processo TESTE-1 apÃ³s 1 instruÃ§Ãµes
 Processo TESTE-3 executando
-Interrompendo processo TESTE-3 após 3 instruções
+Interrompendo processo TESTE-3 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-3 executando
 -----------------------------------
 Processo TESTE-3 finalizado
 X = 4
 Y = 10
 -----------------------------------
-Interrompendo processo TESTE-3 após 2 instruções
 Processo TESTE-2 executando
-Interrompendo processo TESTE-2 após 2 instruções
+Interrompendo processo TESTE-2 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-1 executando
 -----------------------------------
 Processo TESTE-1 finalizado
 X = 2
 Y = 10
 -----------------------------------
-Interrompendo processo TESTE-1 após 1 instruções
 Processo TESTE-2 executando
-Interrompendo processo TESTE-2 após 3 instruções
+Interrompendo processo TESTE-2 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-2 executando
-Interrompendo processo TESTE-2 após 2 instruções
+Interrompendo processo TESTE-2 apÃ³s 2 instruÃ§Ãµes
 Processo TESTE-2 executando
-Interrompendo processo TESTE-2 após 3 instruções
+Interrompendo processo TESTE-2 apÃ³s 3 instruÃ§Ãµes
 Processo TESTE-2 executando
 -----------------------------------
 Processo TESTE-2 finalizado
 X = 9
 Y = 1
 -----------------------------------
-Interrompendo processo TESTE-2 após 3 instruções
