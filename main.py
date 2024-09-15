@@ -61,7 +61,7 @@ print("\n Prontos inicial:\n")
 prontos.printProntos()
 
 
-while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait2 != None or bloqueados.wait3 != None:
+while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait2 != None:
     if len(prontos.processos) == 0:
         novoPronto = bloqueados.moveProc()
         if novoPronto != None:
@@ -69,7 +69,6 @@ while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait
             desbloqueadoPCB = tabelaPCB.findID(novoPronto.pID)
             desbloqueadoPCB.estado = "Pronto"
             tabelaPCB.atualizaProc(desbloqueadoPCB)
-            prontos.redistriCredito()
         continue
     tempPronto = prontos.pop()
     tempPCB = tabelaPCB.findID(tempPronto.pID)
@@ -77,7 +76,8 @@ while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait
     running = Rodando(tempPronto.pID, tempPronto.prioridade, tempPronto.credito, tempPCB.pc, tempPCB.X, tempPCB.Y)
     running.over = False
 
-    running.credito -= 1
+    if running.credito != 0:
+        running.credito -= 1
     for i in range(quantum):
         # print(mem[running.pID])
         instrucao = mem[running.pID][running.pc]
@@ -117,7 +117,7 @@ while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait
             desbloqueadoPCB.estado = "Pronto"
             tabelaPCB.atualizaProc(desbloqueadoPCB)
 
-        if len(prontos.processos) ==  prontos.zeros:
+        if len(prontos.processos) == prontos.zeros and bloqueados.wait1 != None and bloqueados.wait2 != None:
             prontos.redistriCredito()
             prontos.zeros = 0
     
