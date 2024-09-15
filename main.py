@@ -50,6 +50,7 @@ mem.append(temp)
 tabelaPCB = tabelaProcessos.TabelaProc()
 prontos = listas.ListaProntos()
 bloqueados = listas.ListaBloqueados()
+log = open("log.txt", "w")
 
 for i in range(len(mem)):
       tabelaPCB.addProc(i, mem[i][0])
@@ -76,11 +77,17 @@ while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait
     running = Rodando(tempPronto.pID, tempPronto.prioridade, tempPronto.credito, tempPCB.pc, tempPCB.X, tempPCB.Y)
     running.over = False
 
+    log.write(f"Processo {tempPCB.nome} executando\n")
+
+
     if running.credito != 0:
         running.credito -= 1
+
+    instructionCounter = 0
     for i in range(quantum):
-        # print(mem[running.pID])
+        instructionCounter += 1
         instrucao = mem[running.pID][running.pc]
+
         if instrucao == "COM":
             pass
         elif instrucao == "E/S":
@@ -90,9 +97,9 @@ while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait
         elif instrucao == "SAIDA":
             tabelaPCB.removeProc(running.pID)
             running.over = True
-            print("Processo finalizado:")
-            running.printRodando()
-            print("-----------------------------------")
+            log.write("-----------------------------------\n")
+            log.write(f"Processo {tempPCB.nome} finalizado\nX = {running.X}\nY = {running.Y}\n")
+            log.write("-----------------------------------\n")
             break
         elif instrucao[:2] == "X=":
             running.X = int(instrucao[2:])
@@ -101,6 +108,7 @@ while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait
 
         running.pc += 1
 
+    log.write(f"Interrompendo processo {tempPCB.nome} após {instructionCounter} instruções\n")
     if running.over == False:
         if  running.estado == "Pronto":   
             prontos.addProc(running.pID, running.prioridade, running.credito)
