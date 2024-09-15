@@ -33,3 +33,8 @@ class TabelaProc:
         for i in self.listaPCB:
             i.printPCB()
 
+    def removeProc(self, pID):
+        for i in range(len(self.listaPCB)):
+            if self.listaPCB[i].pID == pID:
+                self.listaPCB.pop(i)
+                break

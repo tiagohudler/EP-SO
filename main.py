@@ -13,6 +13,7 @@ class Rodando:
         self.estado = "Executando"
         self.X = X
         self.Y = Y
+        self.over = False
 
     def printRodando(self):
         print(f"pID: {self.pID}, prioridade: {self.prioridade}, credito: {self.credito}, pc: {self.pc}, estado: {self.estado}, X: {self.X}, Y: {self.Y}")
@@ -58,12 +59,12 @@ for i in mem:
 prontos.printProntos()
 
 
-while prontos.processos[len(prontos.processos)-1] != 0:
+while len(prontos.processos) != 0:
     tempPronto = prontos.pop()
     tempPCB = tabelaPCB.findID(tempPronto.pID)
 
     running = Rodando(tempPronto.pID, tempPronto.prioridade, tempPronto.credito, tempPCB.pc, tempPCB.X, tempPCB.Y)
-    running.printRodando()
+    running.over = False
 
     running.credito -= 1
     for i in range(quantum):
@@ -74,7 +75,11 @@ while prontos.processos[len(prontos.processos)-1] != 0:
         elif instrucao == "E/S":
             pass
         elif instrucao == "SAIDA":
-            pass
+            tabelaPCB.removeProc(running.pID)
+            running.over = True
+            running.pc += 1
+            running.printRodando()
+            break
         elif instrucao[:2] == "X=":
             running.X = int(instrucao[2:])
         elif instrucao[:2] == "Y=":
@@ -82,12 +87,12 @@ while prontos.processos[len(prontos.processos)-1] != 0:
 
         running.pc += 1
 
-    running.printRodando()
-
-    prontos.addProc(running.pID, running.prioridade, running.credito)
-    tempPCB.pc = running.pc; tempPCB.X = running.X; tempPCB.Y = running.Y
-    tabelaPCB.atualizaProc(tempPCB)
+    if running.over == False:
+        prontos.addProc(running.pID, running.prioridade, running.credito)
+        tempPCB.pc = running.pc; tempPCB.X = running.X; tempPCB.Y = running.Y
+        tabelaPCB.atualizaProc(tempPCB)
+        if len(prontos.processos) ==  prontos.zeros:
+            prontos.redistriCredito()
+            prontos.zeros = 0
     
     
-prontos.printProntos()    
-tabelaPCB.printProc()

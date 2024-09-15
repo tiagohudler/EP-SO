@@ -14,23 +14,22 @@ class Proc:
 class ListaProntos:
     def __init__(self):
         self.processos = []
+        self.zeros = 0
 
     def addProc(self, pID, prioridade, credito):
         proc = Proc(pID, prioridade, credito)
         self.processos.append(proc)
         self.processos = sorted(self.processos, key=lambda processos:processos.credito, reverse=False)
+        if credito == 0:
+            self.zeros += 1
 
     def redistriCredito(self):
         tamanho = len(self.processos)
-        temp = 0
+        
         for i in range(tamanho):
-            if self.processos[i].credito == 0:
-                temp += 1
-            else:
-                break
-        if temp == tamanho+1:
-            for i in range(tamanho):
-                self.processos[i].credito = self.processos[i].prioridade
+            self.processos[i].credito = self.processos[i].prioridade
+        
+        self.processos = sorted(self.processos, key=lambda processos:processos.credito, reverse=False)
 
 
     def printProntos(self):
