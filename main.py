@@ -61,7 +61,16 @@ print("\n Prontos inicial:\n")
 prontos.printProntos()
 
 
-while len(prontos.processos) != 0:
+while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait2 != None or bloqueados.wait3 != None:
+    if len(prontos.processos) == 0:
+        novoPronto = bloqueados.moveProc()
+        if novoPronto != None:
+            prontos.addProc(novoPronto.pID, novoPronto.prioridade, novoPronto.credito)
+            desbloqueadoPCB = tabelaPCB.findID(novoPronto.pID)
+            desbloqueadoPCB.estado = "Pronto"
+            tabelaPCB.atualizaProc(desbloqueadoPCB)
+            prontos.redistriCredito()
+        continue
     tempPronto = prontos.pop()
     tempPCB = tabelaPCB.findID(tempPronto.pID)
 

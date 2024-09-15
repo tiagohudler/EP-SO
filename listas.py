@@ -41,19 +41,23 @@ class ListaProntos:
 
 class ListaBloqueados:
     def __init__(self):
-        self.wait2 = []
-        self.wait1 = []
+        self.wait3 = None
+        self.wait2 = None
+        self.wait1 = None
 
     def addProc(self, pID, prioridade, credito):
         proc = Proc(pID, prioridade, credito)
-        self.wait2.append(proc)
+        self.wait3 = proc
 
     def moveProc(self):
-        pronto = None
-        if len(self.wait1) > 0:
-            pronto = self.wait1.pop()
         
-        if len(self.wait2) > 0:
-            self.wait1.append(self.wait2.pop())
+        pronto = self.wait1
+        self.wait1 = None
+        
+        self.wait1 = self.wait2
+        self.wait2 = None
+        
+        self.wait2 = self.wait3
+        self.wait3 = None
         
         return pronto
