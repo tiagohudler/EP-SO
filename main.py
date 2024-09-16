@@ -1,9 +1,7 @@
 import tabelaProcessos
 import listas
 
-quantum = open("./programas/quantum.txt", "r")
-quantum = int(quantum.readline())
-
+# classe Rodando que guarda/exeecuta o processo
 class Rodando:
     def __init__(self, pID, prioridade, credito, pc, X, Y):
         self.pID = pID
@@ -18,52 +16,66 @@ class Rodando:
     def printRodando(self):
         print(f"pID: {self.pID}, prioridade: {self.prioridade}, credito: {self.credito}, pc: {self.pc}, estado: {self.estado}, X: {self.X}, Y: {self.Y}")
 
-def openArq(fileName: str):
-    file = open(f"./programas/{fileName}.txt")
-    arqLines = []
-    for line in file:
-            arqLines.append(line[:-1])
-    return arqLines
+# pega o valor do quantum definido em um arquivo
+def getQuantum(path: str):
+    quantum = open(path, "r")
+    quantum = int(quantum.readline())
+    return quantum
 
-def getPrioridade():
-    file = open(f"./programas/prioridades.txt")
+# pega os valores das prioridades de um arquivo txt em que a sua posicao de indice indica o arquivo que ele se refere
+def getPrioridade(path: str):
+    file = open(path)
     arqLines = []
     for line in file:
             arqLines.append(int(line[:-1]))
     return arqLines
 
+# abre um arquivo e retorna suas linhas em uum array
+def openArq(dirPath: str, fileName: str):
+    file = open(f"{dirPath}/{fileName}.txt")
+    arqLines = []
+    for line in file:
+            arqLines.append(line[:-1])
+    return arqLines
+
+# retorna a memoria(array) as instrucoes carregadas dos arquivos(nomeados de 01 a N)
+def loadMem(numArq: int, dirPath: str):
+    mem = []
+    for i in range(1, numArq+1):
+        if i < 10:
+            name = "0"+str(i)
+            temp = openArq(dirPath, name)
+            mem.append(temp)
+        else:
+            temp = openArq(dirPath, str(i))
+            mem.append(temp)
+    return mem
+
 def execucao():
       pass
 
-prioridades = getPrioridade()
-# print(prioridades)
-
-mem = []
-for i in range(1,10):
-      name = "0"+str(i)
-      temp = openArq(name)
-      mem.append(temp)
-temp = openArq("10")
-mem.append(temp)
-
+quantum = getQuantum("./programas/quantum.txt")
+prioridades = getPrioridade("./programas/prioridades.txt")
+mem = loadMem(10, "./programas")
+log = open("log.txt", "w", encoding="UTF-8")
 
 tabelaPCB = tabelaProcessos.TabelaProc()
 prontos = listas.ListaProntos()
 bloqueados = listas.ListaBloqueados()
-log = open("log.txt", "w", encoding="UTF-8")
 
 for i in range(len(mem)):
       tabelaPCB.addProc(i, mem[i][0])
       mem[i] = mem[i][1:]
       prontos.addProc(i, prioridades[i], prioridades[i])
+
 for i in mem:
     print(i)
 print("\n Prontos inicial:\n")
 prontos.printProntos()
 
 
-while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait2 != None:
-    if len(prontos.processos) == 0:
+while len(prontos.listaProcessos) != 0 or bloqueados.wait1 != None or bloqueados.wait2 != None:
+    if len(prontos.listaProcessos) == 0:
         novoPronto = bloqueados.moveProc()
         if novoPronto != None:
             prontos.addProc(novoPronto.pID, novoPronto.prioridade, novoPronto.credito)
@@ -126,7 +138,7 @@ while len(prontos.processos) != 0 or bloqueados.wait1 != None or bloqueados.wait
             desbloqueadoPCB.estado = "Pronto"
             tabelaPCB.atualizaProc(desbloqueadoPCB)
 
-        if len(prontos.processos) == prontos.zeros and bloqueados.wait1 != None and bloqueados.wait2 != None:
+        if len(prontos.listaProcessos) == prontos.zeros and bloqueados.wait1 != None and bloqueados.wait2 != None:
             prontos.redistriCredito()
             prontos.zeros = 0
     
