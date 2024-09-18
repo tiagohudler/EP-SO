@@ -73,6 +73,9 @@ for i in mem:
 print("\n Prontos inicial:\n")
 prontos.printProntos()
 
+instrucoesTotais = 0
+trocasTotais = -1 #pois o primeiro processo escalonado não é considerado como troca
+procAnterior = "inicializado"
 
 while len(prontos.listaProcessos) != 0 or bloqueados.wait1 != None or bloqueados.wait2 != None:
     if len(prontos.listaProcessos) == 0:
@@ -91,12 +94,15 @@ while len(prontos.listaProcessos) != 0 or bloqueados.wait1 != None or bloqueados
 
     log.write(f"Processo {tempPCB.nome} executando\n")
 
+    #if procAnterior != tempPCB.nome:
+    trocasTotais += 1 #será 0 no primeiro loop
 
     if running.credito != 0:
         running.credito -= 1
 
     instructionCounter = 0
     for i in range(quantum):
+        instrucoesTotais += 1
         instructionCounter += 1
         instrucao = mem[running.pID][running.pc]
 
@@ -120,6 +126,8 @@ while len(prontos.listaProcessos) != 0 or bloqueados.wait1 != None or bloqueados
 
         running.pc += 1
 
+    procAnterior = tempPCB.nome
+
     if running.over == False:
         log.write(f"Interrompendo processo {tempPCB.nome} após {instructionCounter} instruções\n")
 
@@ -141,5 +149,20 @@ while len(prontos.listaProcessos) != 0 or bloqueados.wait1 != None or bloqueados
         if len(prontos.listaProcessos) == prontos.zeros and bloqueados.wait1 != None and bloqueados.wait2 != None:
             prontos.redistriCredito()
             prontos.zeros = 0
+
+
+mediaTrocas = trocasTotais/10
+log.write(f"Número total de trocas: {trocasTotais}\n")
+log.write(f"Média de trocas de processo: {mediaTrocas}\n")
+
+mediaInstrucoes = instrucoesTotais/trocasTotais
+log.write(f"Média de instruções por processo: {mediaInstrucoes}\n")
+
+log.write(f"quantum: {quantum}\n")
+
+eff = mediaInstrucoes/quantum
+log.write(f"eficiência: {eff}\n")
+
+
     
     

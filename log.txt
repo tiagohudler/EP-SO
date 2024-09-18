@@ -1,0 +1,323 @@
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-10 executando
+Interrompendo processo TESTE-10 após 1 instruções
+Processo TESTE-5 executando
+Interrompendo processo TESTE-5 após 1 instruções
+Processo TESTE-5 executando
+Interrompendo processo TESTE-5 após 1 instruções
+Processo TESTE-10 executando
+Interrompendo processo TESTE-10 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-5 executando
+Interrompendo processo TESTE-5 após 1 instruções
+Processo TESTE-10 executando
+Interrompendo processo TESTE-10 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-10 executando
+Interrompendo processo TESTE-10 após 1 instruções
+Processo TESTE-5 executando
+Interrompendo processo TESTE-5 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-1 executando
+Interrompendo processo TESTE-1 após 1 instruções
+Processo TESTE-1 executando
+Interrompendo processo TESTE-1 após 1 instruções
+Processo TESTE-1 executando
+Interrompendo processo TESTE-1 após 1 instruções
+Processo TESTE-1 executando
+Interrompendo processo TESTE-1 após 1 instruções
+Processo TESTE-1 executando
+Interrompendo processo TESTE-1 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-1 executando
+Interrompendo processo TESTE-1 após 1 instruções
+Processo TESTE-1 executando
+Interrompendo processo TESTE-1 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-1 executando
+Interrompendo processo TESTE-1 após 1 instruções
+Processo TESTE-1 executando
+Interrompendo processo TESTE-1 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-1 executando
+-----------------------------------
+Processo TESTE-1 finalizado
+X = 2
+Y = 10
+-----------------------------------
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-4 executando
+Interrompendo processo TESTE-4 após 1 instruções
+Processo TESTE-7 executando
+Interrompendo processo TESTE-7 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-4 executando
+-----------------------------------
+Processo TESTE-4 finalizado
+X = 91
+Y = 5
+-----------------------------------
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-7 executando
+-----------------------------------
+Processo TESTE-7 finalizado
+X = 12
+Y = 3
+-----------------------------------
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+Interrompendo processo TESTE-2 após 1 instruções
+Processo TESTE-2 executando
+-----------------------------------
+Processo TESTE-2 finalizado
+X = 9
+Y = 1
+-----------------------------------
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-9 executando
+Interrompendo processo TESTE-9 após 1 instruções
+Processo TESTE-5 executando
+Interrompendo processo TESTE-5 após 1 instruções
+Processo TESTE-5 executando
+Interrompendo processo TESTE-5 após 1 instruções
+Processo TESTE-9 executando
+-----------------------------------
+Processo TESTE-9 finalizado
+X = 0
+Y = 0
+-----------------------------------
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-5 executando
+Interrompendo processo TESTE-5 após 1 instruções
+Processo TESTE-5 executando
+Interrompendo processo TESTE-5 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-5 executando
+Interrompendo processo TESTE-5 após 1 instruções
+Processo TESTE-5 executando
+Interrompendo processo TESTE-5 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-5 executando
+-----------------------------------
+Processo TESTE-5 finalizado
+X = 8
+Y = 5
+-----------------------------------
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-6 executando
+Interrompendo processo TESTE-6 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-6 executando
+-----------------------------------
+Processo TESTE-6 finalizado
+X = 8
+Y = 5
+-----------------------------------
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-8 executando
+Interrompendo processo TESTE-8 após 1 instruções
+Processo TESTE-8 executando
+-----------------------------------
+Processo TESTE-8 finalizado
+X = 1
+Y = 3
+-----------------------------------
+Processo TESTE-10 executando
+Interrompendo processo TESTE-10 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-10 executando
+-----------------------------------
+Processo TESTE-10 finalizado
+X = 0
+Y = 0
+-----------------------------------
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+Interrompendo processo TESTE-3 após 1 instruções
+Processo TESTE-3 executando
+-----------------------------------
+Processo TESTE-3 finalizado
+X = 4
+Y = 10
+-----------------------------------
+Número total de trocas: 138
+Média de trocas de processo: 13.8
+Média de instruções por processo: 1.0072463768115942
+quantum: 1
+eficiência: 1.0072463768115942
