@@ -94,8 +94,8 @@ while len(prontos.listaProcessos) != 0 or bloqueados.wait1 != None or bloqueados
 
     log.write(f"Processo {tempPCB.nome} executando\n")
 
-    #if procAnterior != tempPCB.nome:
-    trocasTotais += 1 #será 0 no primeiro loop
+    if procAnterior != tempPCB.nome:
+        trocasTotais += 1 #será 0 no primeiro loop
 
     if running.credito != 0:
         running.credito -= 1
@@ -152,16 +152,15 @@ while len(prontos.listaProcessos) != 0 or bloqueados.wait1 != None or bloqueados
 
 
 mediaTrocas = trocasTotais/10
-log.write(f"Número total de trocas: {trocasTotais}\n")
-log.write(f"Média de trocas de processo: {mediaTrocas}\n")
+log.write(f"Média de trocas por processo: {mediaTrocas}\n")
 
 mediaInstrucoes = instrucoesTotais/trocasTotais
-log.write(f"Média de instruções por processo: {mediaInstrucoes}\n")
+log.write(f"Média de instruções por processo: {mediaInstrucoes:.2f}\n")
 
 log.write(f"quantum: {quantum}\n")
 
 eff = mediaInstrucoes/quantum
-log.write(f"eficiência: {eff}\n")
+log.write(f"eficiência: {eff:.2f}\n")
 
 
     
